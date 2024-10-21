@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+   <link href="styles.css" rel="stylesheet"/>
+  </head>
+<body>
+  
+    <header></header>
+  <main>
+    <h1 id="title">Treasured LLC</h1>
+
+    <fieldset>
+      <h2><p>Application to adopt a Mystical Creature.</p></h2>
+      <p id="description">Please fill out the application honestly and truthfully. We pride ourselves in our placements and discretion our services provied. </p></fieldset>
+    <form id="survey-form">
+    <fieldset>
+      <p>Create new Account</p>
+      <p>
+           <label for="name">Full Name:<input id="name" name="name" placeholder="Name" type="text" required />
+            </label><br></br>
+               <label for="email">Email: <input id="email" name="email" type="email" placeholder="Email" id="email-label" required /></label><br></br>
+        <label for="new-password">Password:<input id="new-password" name="new-password" placeholder="Password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+      </p>
+      </fieldset>
+
+
+      <fieldset>  
+        <p><b>Are you amongst the Living?</b></p>
+        <p>
+          <legend><i>Required that you answer truthfuly.</i></legend>
+        <label for="yes-account"><input id="yes-account" type="radio" value="yes-account" name="account-type" class="inline" checked />Yes</label>
+        <label for="no-account"><input id="no-account"type="radio" value="no-account" name="account-type" class="inline" />No</label> <br></br>
+          <label for="number">Age: <input id="number" type="number" placeholder="25..." name="number" min="13" max="620" /></label></p> 
+      </fieldset>
+
+
+    <fieldset> <div class="choices">
+      <label for="choices"><h4><p>Please select from the options</p></h4></label>
+        <p><label for="first-choice">First- Preferred Choice
+          <select id="dropdown" name="first-choice">
+            <option value="">(select one)</option>
+            <option value="1">Dragon</option>
+            <option value="2">Hydra</option>
+            <option value="3">Griffin</option>
+            <option value="4">Unicorn</option>
+            <option value="5">Basikisk</option>
+          </select>
+      </label></p>
+    
+      <p>
+        <label for="second-choice">Second- Preferred Choice
+          <select id="dropdown" name="second-choice">
+            <option value="">(select one)</option>
+            <option value="1">Gremlin</option>
+            <option value="2">Firebird</option>
+            <option value="3">Bats</option>
+            <option value="4">Megalodons</option>
+          </select>
+        </label>
+      </p>
+   </label>
+      <p>
+        <label for="third-choice">Third- Preferred Choice
+          <select id="dropdown" name="third-choice">
+            <option value="">(select one)</option>
+            <option value="1">Black Dogs</option>
+            <option value="2">Pixie</option>
+            <option value="3">Flying Monkeys</option>
+            <option value="4">Orcs</option>
+          </select>
+          </div>
+    </label></p>
+    </fieldset>
+  <fieldset><p>
+    <label for="experience"><b>Experience with Mystical Creature.</b><br></br>
+          <textarea id="experience" name="experience" rows="3" cols="30" placeholder="Please explain your personal experience with these magical creatures in detail"></textarea>
+    </label></p>
+      </fieldset>
+<fieldset><p><b>Are you interest in any other of Treasured LLC discreet services?</b><br></br>
+      
+    <label><input class="inline" id="vet" type="checkbox" value="vet" name="vet" /> Vet</label><br></br>
+     <label><input class="inline" id="day-care" type="checkbox" value="day-care" name="day-care" /> Day Care </label><br></br>
+      <label><input class="inline" id="creature-groomers" value="creature-groomers" type="checkbox" name="creature-groomers" />Creature Groomers</label><br></br>
+       <label><input class="inline" id="feeder-animals" value=" feeders-anumals" type="checkbox" name="feeders-animals" />Feeders (Animals)</label><br></br>
+      <label><input class="inline" id="feeder-Organ-donors" value="organ-donors" type="checkbox" name="fedders-organ-donors" />Feeders (Organ donors)</label><br></br>
+  </p> 
+</fieldset>
+      
+    
+      <label for="terms-and-conditions"><p>
+        <input class="inline" value="terms-and-conditions" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the terms and conditions with my life.</a></p>
+      </label>
+  
+    
+     <input type="submit" id="Submit" value="Submit" />
+    
+
+     <feildset>
+       <p><i>Sign into Existing Account</i></p> 
+    
+     <p><label id="name-label">Name<textarea id="name-label" name="name-label" rows="1" cols="30" placeholder="NAME"></textarea></label></p>
+       <p><label id="email-label">Email<textarea id="email-label" name="email-label" rows="1" cols="30" placeholder="EMAIL"></textarea></label></p>
+       <p><label id="number-label">Member ID<textarea id="number-label" name="number-label" rows="1" cols="30" placeholder="Member ID"></textarea></label></p>
+       <p><button id="submit">Sign IN</button></p>
+       </feildset>
+      
+   
+  </main>
+  <p>                                             </p>   
+                                              </form>  </menu>   </div>                                 
+<footer><p>Treasured LLC</p></footer>
+</body>
+</html>
